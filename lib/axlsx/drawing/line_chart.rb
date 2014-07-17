@@ -51,6 +51,7 @@ module Axlsx
       super(frame, options)
       @series_type = LineSeries
       @d_lbls = nil
+      val_axis.ax_pos = :l
     end
 
     # @see grouping
